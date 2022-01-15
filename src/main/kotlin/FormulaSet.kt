@@ -79,6 +79,6 @@ class FormulaSet private constructor (private val s: MutableSet<MutableSet<Liter
         }
         if (l != null)
             s1.add(mutableSetOf(l))
-        return FormulaSet(s)
+        return FormulaSet(s1)
     }
 }
